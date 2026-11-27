@@ -1,7 +1,6 @@
 public class ejercicio {
     public class ModificarCadena {
 
-    // Intenta modificar la cadena, pero solo afecta a la referencia local
     public static void modificarCadena(String texto) {
         texto = texto + " Mundo";
         texto = texto.toUpperCase();
